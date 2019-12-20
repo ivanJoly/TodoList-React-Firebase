@@ -1,0 +1,24 @@
+.Button{
+    display: block;
+    background-color: var(--primary-color);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    color: var(--white-color);
+
+    font-size: 0.95em;
+    font-weight: 400;
+    font: normal;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    padding: 12px 5px;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.Button.BgDark{
+    background-color: var(--primary-color-dark) !important;
+}

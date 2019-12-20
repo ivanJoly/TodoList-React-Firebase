@@ -1,0 +1,109 @@
+.TaskContainer{
+    max-height: 68px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.Done{
+    border-left: 2px solid #4caf50;
+}
+
+.Undone{
+    border-left: 2px solid #ea3123;
+}
+
+.Task{
+    width: 100%;
+    background-color: var(--white-color);
+    border-radius: 0 3px 3px 0;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: 0.5s all ease-in-out;
+    overflow-y: hidden;
+    display: flex;
+}
+
+.Task.Out{
+    transform: translate(0, 110%);
+}
+
+.Task.In{
+    transform: translate(0,0%) !important;
+}
+
+.Check{
+    flex: 1 1 15%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.Data{
+    flex: 1 1 70%;
+}
+
+.Remove{
+    flex: 1 1 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Remove svg{
+    transition: 0.5s all ease;
+}
+
+.RemoveAsk{
+    width: 30px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s all ease-in-out;
+    border-left: 1px solid var(--grey-color);
+    background-color: #e8e8e8;
+}
+
+.RemoveAsk div{
+    flex: 1 1 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.RemoveAsk .CheckAsk{
+    border-bottom: 1px solid #ccc;
+}
+
+.RemoveAsk .CloseAsk{
+
+}
+
+.RemoveIn{
+    transform: translate(0%, 0px) !important;
+}
+
+.RemoveOut{
+    transform: translate(100%, 0px);
+}
+
+.Title{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+
+.Description{
+    margin: 0;
+    padding: 0;
+    font-size: 0.85em;
+    font-weight: 300;
+}

@@ -1,0 +1,26 @@
+{
+    "short_name": "Login Auth",
+    "name": "React-Firebase Auth Login",
+    "icons": [
+      {
+        "src":"iconMain.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src":"icon512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src":"icon512aple.jpg",
+        "rel":"apple-touch-icon",
+        "sizes": "192x192",
+        "type": "image/jpg"
+      }
+    ],
+    "start_url": "/?utm_source=homescreen",
+    "background_color": "#222",
+    "theme_color": "#222",
+    "display": "standalone"
+  }

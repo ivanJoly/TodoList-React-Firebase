@@ -1,0 +1,31 @@
+.Header{
+    display: flex;
+    height: 50px;
+    flex: 1 50px;
+}
+
+.Header .TitleContainer{
+    flex: 1 70%;
+    background-color: #2ea8df;
+    display: flex;
+    height: inherit;
+    align-items: center;
+    justify-content: center;
+}
+
+.Header .TitleContainer .Title{
+    margin: 0;
+    font-size: 0.95em;
+    padding: 0 5px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: var(--white-color);
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.Header .Button{
+    flex: 1 30%;
+    height: inherit;
+}

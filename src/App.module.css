@@ -1,0 +1,22 @@
+.fullHeight {
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+}
+
+.Container{
+    box-sizing: border-box;
+    height: inherit;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.Loading{
+    display: flex;
+    height: inherit;
+    align-items: center;
+    justify-content: center;
+}
+
+.Form{
+    padding: 20px 0;
+}

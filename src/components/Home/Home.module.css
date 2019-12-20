@@ -1,0 +1,66 @@
+.HomeContainer{
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    position: relative;
+}
+
+.MainContainer{
+    flex: 1 100%;
+    overflow-x: hidden;
+    margin: 40px;
+    position: relative;
+}
+
+.MainContainer .AddTask{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.MainContainer .AddTask .Button{
+
+}
+
+.Main{
+    position: relative;
+    height: 92%;
+    overflow-x: auto;
+    margin-top: 8%;
+}
+
+.Footer{
+    background-color: var(--primary-color-dark);
+    height: 50px;
+    width: 100%;
+    flex: 1 80px;
+    display: flex;
+    /* 
+    position: absolute;
+    bottom: 0;
+    width: 100%; */
+}
+
+.AllTasks, .DoneTasks, .UndoneTasks{
+    flex: 1 1 100%;
+}
+
+.Icon{
+    font-size: 32px;
+    fill: var(--white-color);
+}
+
+.PageTitle{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.PageTitle h2{
+    margin: 0;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-align: center;
+}
