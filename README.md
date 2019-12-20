@@ -1,43 +1,19 @@
-# React-Firebase Auth
-
-Aplicacion reutilizable para autenticacion de usuarios con react y fireabse como backend.
-
-## Installation
+# TodoList-React-Firebase 
+Realización de un TodoList en base a un proyecto anterior de autenticación con **React** y **Firebase**.  
+Consta en una típica aplicación de seguimiento de tareas a realizar, las cuales pueden añadirse, eliminarse, y además colocarlas como llevadas a cabo o no.
 
 
-```bash
-npm install
-```
+## React + Firebase
 
-## Usage
+Este proyecto se llevo a cabo utilizando un proyecto previo donde ya estaba creada la autenticación integrada con **Firebase**. Esta al estar realizada de manera atomica, permite se reutilizada y poder aprovecharla para el uso en distintas aplicaciones, como se hizo con esta.
 
-Luego de instarlo se debe crear un archivo de credenciales de firebase para tener una correcta conexion con el backend.
+Teniendo como base eso, luego se estructuro el backend para poder guardar, editar, eliminar, y agregarle un estado a cada uno de esas tareas, y que solamente el usuario que las haya creado sea el que este autorizado a realizar esos cambios.
+ 
 
-El archivo debe estar en la carpeta "/src/config/firebase.js"
+## PWA
 
-
-```js
-
-const config ={
-    apiKey: "",
-    authDomain: "",
-    databaseURL: "",
-    projectId: "",
-    storageBucket: "",
-    messagingSenderId: "",
-    appId: ""
-};
-
-export default config;
-```
-
-El archivo tiene que ser igual a este formato, pero con los datos de tus crendenciales de Firebase.
-
-Luego ejecutar la accion de create-react-app y utilizarla como uno desee.
-
-```bash
-npm start
-```
+La app esta pensada, realizada, y orientada a una utilización  mobile, por ello también se estructuro un **PWA**, el cual permite instalar la aplicación de manera nativa en el celular, así permitiendo que se agregue como un icono mas dentro del home del celular.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+eccentricfoxestudio@gmail.com
+www.eccentricfox.com.ar
