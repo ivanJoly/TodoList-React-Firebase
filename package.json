@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "date-and-time": "^0.8.1",
+    "date-and-time": "^0.14.2",
     "firebase": "^6.3.0",
     "react": "^16.8.6",
     "react-div-100vh": "^0.3.4",
